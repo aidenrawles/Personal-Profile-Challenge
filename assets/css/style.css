@@ -69,6 +69,12 @@
     }
 }
 
+/*========== Purple Selection ==========*/
+::selection {
+    background-color: var(--first-color);
+    color: #fff;
+}
+
 /*========== Variables Dark theme ==========*/
 
 
@@ -173,7 +179,7 @@ img {
 }
 
 .nav__toggle {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -262,7 +268,7 @@ img {
 .home__img {
     -webkit-mask-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGw9IiM4QTNGRkMiIGQ9Ik02OC40LC0zOUM4Mi42LC0xNSw4My43LDE3LDcwLjEsMzguNEM1Ni41LDU5LjgsMjguMyw3MC42LDIsNjkuNEMtMjQuMyw2OC4zLC00OC41LDU1LjIsLTYyLjYsMzMuNUMtNzYuNiwxMS44LC04MC41LC0xOC40LC02OC4zLC00MS4yQy01Ni4yLC02My45LC0yOC4xLC03OS4yLC0wLjUsLTc5QzI3LjIsLTc4LjcsNTQuMywtNjIuOSw2OC40LC0zOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwMCAxMDApIiAvPgo8L3N2Zz4K);
     -webkit-mask-repeat: no-repeat;
-    margin-bottom: -35%;
+    margin-bottom: -30%;
 }
 
 .home__data {
