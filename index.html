@@ -11,12 +11,10 @@
         <link rel="manifest" href="/site.webmanifest">
         <!--UNICONS-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <!--SWIPER CSS-->
-
         <!--CSS-->
         <link rel="stylesheet" href="./assets/css/style.css">
 
-        <title>Aiden Rawles</title>
+        <title>Personal Profile</title>
     </head>
     <body>
         <!--Header-->
@@ -32,28 +30,18 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
+                            <a href="#stats" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Stats
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> DiscordBot
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            <a href="#gallery" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Gallery
                             </a>
                         </li>
                     </ul>
@@ -92,18 +80,109 @@
                             <h1 class="home__title">Hi, I am Aiden Rawles!</h1>
                             <h3 class="home__subtitle">UNSW Commerce/Computer Science Student</h3>
                             <p class="home__desc">In my free time I enjoy surfing 🏄 and I also enjoy gaming 🎮. Ocasionally, I like to take out my camera and capture shots of other people surfing or shots of some really nice waves 🌊</p>
-                            <a href="#portfolio" class="button button--flex">
+                            <a href="#gallery" class="button button--flex">
                                 Check it Out! <i class="uil uil-camera button__icon"></i>
                             </a>
                         </div>
                     </div>
 
                     <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
+                        <a href="#stats" class="home__scroll-button button--flex">
                             <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                             <span class="home__scroll-name">Scroll down</span>
                             <i class="uil uil-arrow-circle-down home__scroll-arrow"></i>
                         </a>
+                    </div>
+                </div>
+            </section>
+            <hr class="page__break">
+            <section class="stats section" id="stats">
+                <div class="stats__container container grid">
+                    <div class="stats__content grid">
+                        <div class="stats__data">
+                            <h1 class="stats__title"><i class="uil uil-arrow title__code"></i>Brogrammer Statistics</h1>
+                            <div class="stats__img">
+                                <img src="./assets/img/stats.png" alt="waterfall-selfie">
+                            </div>
+                            <h3 class="stats__subtitle">🏋️ Certified Brogrammer 🏋️</h3>
+                            <ul class="stats__gymlist grid">
+                                <li>
+                                    <i class="uil uil-ruler stats__icon"></i> H: 182cm
+                                </li>
+                                <li>
+                                    <i class="uil uil-weight stats__icon"></i> BW: 80kg
+                                </li>
+                                <li>
+                                    <i class="uil uil-dumbbell stats__icon"></i> Bench: 105kg
+                                </li>
+                                <li>
+                                    <i class="uil uil-anchor stats__icon"></i> Squat: 135kg
+                                </li>
+                                <li>
+                                    <i class="uil uil-hard-hat stats__icon"></i> Deadlift: 160kg
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="page__break">
+            <section class="projects section" id="projects">
+                <div class="projects__container container grid">
+                    <div class="projects__content grid">
+                        <div class="projects__heading">
+                            <h1 class="projects__title">Discord Bot</h1>
+                            <h3 class="projects__subtitle">My Only Completed Project</h3>
+                        </div>
+
+                        <div class="projects__gallery">
+
+                        </div>
+
+                        <div class="projects__data">
+                            <p class="projects__desc"> I built this bot using node as an attempt to learn javascript and to get ahead with COMP1531. 
+                                The most valuable thing I learned was APIs, I made requests to numerous APIs to get memes and even made my own weather app. 
+                                I also learned how to deploy my first app using Heroku. </p>
+                            <a href="#gallery" class="button button--flex">
+                                Source Code <i class="uil uil-arrow button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="page__break">
+            <section class="gallery section" id="gallery">
+                <div class="gallery__container container grid">
+                    <div class="gallery__content grid">
+                        <div class="gallery__heading">
+                            <h1 class="gallery__title">Surf Photos</h1>
+                            <h3 class="gallery__subtitle">All Photos Shot by Me!</h3>
+                        </div>
+                        <div class="gallery__data">
+                            <figure class="gallery__item gallery__item--3">
+                                <img src="./assets/img/surf/Background.jpg" class="gallery__img" alt="turtles">
+                            </figure>
+                            <figure class="gallery__item gallery__item--2">
+                                <img src="./assets/img/surf/Backhand (1 of 1)_Original.jpg" class="gallery__img" alt="backhand-snap">
+                            </figure>
+                            <figure class="gallery__item gallery__item--1">
+                                <img src="./assets/img/surf/FunWhaley-5.JPG" class="gallery__img" alt="whale-beach">
+                            </figure>
+                            <figure class="gallery__item gallery__item--4">
+                                <img src="./assets/img/surf/Snap (1 of 1)_Original.jpg" class="gallery__img" alt="newport-snap">
+                            </figure>
+                            <figure class="gallery__item gallery__item--5">
+                                <img src="./assets/img/surf/pic (6 of 6)_Original.jpg" class="gallery__img" alt="fingal-bay">
+                            </figure>
+                            <figure class="gallery__item gallery__item--6">
+                                <img src="./assets/img/surf/WhaleyDAY (7 of 12)_Original.jpg" class="gallery__img" alt="spray-cutback">
+                            </figure>
+                        </div>
+                        <div class="gallery__link">
+                            <a href="https://www.instagram.com/sydneysurf.photos/" target="_blank" class="button button--flex">
+                                See More! <i class="uil uil-instagram button__icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -113,20 +192,20 @@
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <h1 class="footer__title">Aiden Rawles</h1>
-                    <span class="footer__subtitle">Legend</span>
+                    <span class="footer__subtitle">Certified Brogrammer</span>
                 </div>
 
-                <u1 class="footer__links">
+                <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#home" class="footer__link">Home</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                        <a href="#stats" class="footer__link">Stats</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contact Me</a>
+                        <a href="#gallery" class="footer__link">Gallery</a>
                     </li>
-                </u1>
+                </ul>
 
                 <div class="footer__socials">
                     <a href="" class="footer__social">
