@@ -1,6 +1,8 @@
 # Personal-Profile-Challenge
 
-CSESoc 2023 Trainee Technical Challenge
+CSESoc 2023 Trainee Technical Challenge.
+
+This webpage is mobile friendly! However, I recommend viewing on a bigger screen.
 
 ## Details
 

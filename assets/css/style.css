@@ -80,7 +80,6 @@
 
 /*========== Button Dark/Light ==========*/
 
-
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
@@ -394,7 +393,7 @@ img {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     color: var(--text-color);
-    padding-top: 1rem;
+    padding-top: 5rem;
     flex-direction: column;
 }
 
@@ -416,6 +415,60 @@ img {
     display: block;
     text-align: center;
 }
+
+.stats__text {
+    margin: var(--mb-2-5);
+}
+
+.stats__smtext {
+    font-size: var(--smaller-font-size);
+    color: var(--body-color);
+}
+
+.stats__smtext:hover {
+    color: var(--first-color-lighter);
+}
+
+/*========= PROJECTS =========*/
+.projects__title {
+    display: block;
+    color: var(--text-color);
+    font-size: var(--h1-font-size);
+}
+
+.projects__subtitle {
+    display: block;
+    color: var(--text-color-light);
+    font-size: var(--h3-font-size);
+}
+
+.projects__container {
+    gap: 1rem;
+}
+
+.project__img {
+    border-radius: 50%;
+    transform: scale(0.5);
+    margin-top: -15%;
+    margin-bottom: -15%;
+    text-align: center;
+}
+
+.project__img:hover {
+    border-radius: 10%;
+    transition: .3s;
+}
+
+.projects__data {
+    display: block;
+    text-align: center;
+}
+
+.projects__desc {
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-1-5);
+}
+
 /*========= GALLERY =========*/
 .gallery__title {
     display: block;
@@ -588,6 +641,10 @@ img {
     .stats__img {
         width: 190px;
     }
+
+    .stats__smtext {
+        color: var(--first-color-alt);
+    }
 }
 
 /* Medium Devices */
@@ -611,6 +668,10 @@ img {
 
     .footer__social {
         padding: 1rem;
+    }
+
+    .stats__smtext {
+        color: var(--first-color-alt);
     }
 }
 
